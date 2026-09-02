@@ -136,7 +136,7 @@ learn event from playing the popup / Kweh sound twice.
 - Set loading first clears only slots that differ, then sets the requested spells, reducing unnecessary client requests.
 - A final reconciliation pass retries any slot that still does not match the saved set.
 - The UI reports incomplete slots instead of claiming success when a change was dropped.
-- No custom packet injection was added; the loader still uses the game's extended-equip function.
+
 
 
 ## v1.4
@@ -145,7 +145,7 @@ learn event from playing the popup / Kweh sound twice.
 - The variable-length 0x28 battle-action handler now validates every bit range before calling Ashita's native bit unpacker.
 - Rejects impossible target/action counts and safely stops parsing truncated or malformed action packets.
 - Added length validation to the 0x0A zone and 0x29 Blue Magic learn-message reads as well.
-- No outgoing packet injection was added or changed.
+
 
 ## Credits
 
