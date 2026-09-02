@@ -139,7 +139,7 @@ learn event from playing the popup / Kweh sound twice.
 - No custom packet injection was added; the loader still uses the game's extended-equip function.
 
 
-## v1.3.17
+## v1.4
 
 - Hardened incoming packet parsing to prevent native out-of-bounds reads.
 - The variable-length 0x28 battle-action handler now validates every bit range before calling Ashita's native bit unpacker.
