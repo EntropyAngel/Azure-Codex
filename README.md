@@ -18,6 +18,7 @@ Use:
 
 ```text
 /azurecodex
+/ac
 ```
 
 to open or close the tracker.
