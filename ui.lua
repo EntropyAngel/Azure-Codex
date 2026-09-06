@@ -782,133 +782,152 @@ function ui.get_active_trait_count()
 end
 
 ui.traits = {
-    { name='Accuracy Bonus', tiers='I: 2 trait pts', spells={
-        {name='Dimensional Death', level=60, set=5, weight=1},
-        {name='Frenetic Rip', level=63, set=3, weight=1},
+    { name='Accuracy Bonus', tiers='I: 8 trait pts', spells={
+        {name='Vanity Dive', level=28, set=4, weight=4},
+        {name='Dimensional Death', level=60, set=5, weight=4},
+        {name='Frenetic Rip', level=63, set=3, weight=4},
         {name='Disseverment', level=72, set=5, weight=1},
     }},
-    { name='Attack Bonus', tiers='I: 2  |  II: 4 trait pts', spells={
-        {name='Battle Dance', level=12, set=3, weight=1},
-        {name='Uppercut', level=38, set=3, weight=1},
-        {name='Death Scissors', level=60, set=5, weight=1},
+    { name='Attack Bonus', tiers='I: 8  |  II: 16 trait pts', spells={
+        {name='Battle Dance', level=12, set=3, weight=4},
+        {name='Uppercut', level=38, set=3, weight=4},
+        {name='Death Scissors', level=60, set=5, weight=4},
         {name='Spinal Cleave', level=63, set=4, weight=1},
         {name='Temporal Shift', level=73, set=5, weight=1},
     }},
-    { name='Auto Regen', tiers='I: 2 trait pts', spells={
-        {name='Sheep Song', level=16, set=2, weight=1},
-        {name='Healing Breeze', level=16, set=4, weight=1},
+    { name='Auto Regen', tiers='I: 8 trait pts', spells={
+        {name='Sheep Song', level=16, set=2, weight=4},
+        {name='Healing Breeze', level=16, set=4, weight=4},
     }},
     { name='Auto Refresh', tiers='I: 8 Auto Refresh pts', special=true, spells={
         {name='Stinking Gas', level=44, set=2, weight=1},
-        {name='Geist Wall', level=46, set=4, weight=3},
+        {name='Geist Wall', level=46, set=3, weight=4},
+        {name='Blood Saber', level=48, set=3, weight=4},
         {name='Frightful Roar', level=50, set=3, weight=2},
         {name='Self-Destruct', level=50, set=3, weight=2},
         {name='Cold Wave', level=52, set=1, weight=1},
+        {name='Winds of Promy.', level=56, set=4, weight=2},
         {name='Light of Penance', level=58, set=5, weight=3},
-        {name='Voracious Trunk', level=64, set=4, weight=3},
+        {name='Voracious Trunk', level=64, set=3, weight=3},
         {name='Actinic Burst', level=74, set=4, weight=4},
         {name='Plasma Charge', level=75, set=5, weight=4},
     }},
-    { name='Beast Killer', tiers='I: 2  |  II: 4 trait pts', spells={
-        {name='Wild Oats', level=4, set=3, weight=1},
-        {name='Sprout Smack', level=4, set=2, weight=1},
+    { name='Beast Killer', tiers='I: 8  |  II: 16 trait pts', spells={
+        {name='Wild Oats', level=4, set=3, weight=4},
+        {name='Sprout Smack', level=4, set=2, weight=4},
         {name='Seedspray', level=61, set=2, weight=1},
-        {name='1000 Needles', level=62, set=5, weight=1},
+        {name='1000 Needles', level=62, set=5, weight=4},
     }},
-    { name='Clear Mind', tiers='I: 2  |  II: 4  |  III: 6  |  IV: 8 trait pts', spells={
-        {name='Poison Breath', level=22, set=1, weight=1},
-        {name='Soporific', level=24, set=4, weight=1},
-        {name='Venom Shell', level=42, set=3, weight=1},
-        {name='Awful Eye', level=46, set=2, weight=1},
-        {name='Filamented Hold', level=52, set=3, weight=1},
-        {name='Maelstrom', level=61, set=5, weight=1},
-        {name='Feather Tickle', level=64, set=3, weight=1},
-        {name='Sandspray', level=66, set=2, weight=1},
+    { name='Clear Mind', tiers='I: 8  |  II: 16  |  III: 24  |  IV: 32 trait pts', spells={
+        {name='Poison Breath', level=22, set=1, weight=4},
+        {name='Soporific', level=24, set=4, weight=4},
+        {name='Venom Shell', level=42, set=3, weight=4},
+        {name='Awful Eye', level=46, set=2, weight=4},
+        {name='Filamented Hold', level=52, set=3, weight=4},
+        {name='Maelstrom', level=61, set=5, weight=4},
+        {name='Feather Tickle', level=64, set=3, weight=4},
+        {name='Sandspray', level=66, set=2, weight=4},
         {name='Corrosive Ooze', level=66, set=4, weight=1},
-        {name='Warm-Up', level=68, set=4, weight=1},
+        {name='Warm-Up', level=68, set=4, weight=4},
         {name='Lowing', level=71, set=2, weight=1},
         {name='Mind Blast', level=73, set=4, weight=1},
     }},
-    { name='Conserve MP', tiers='I: 2  |  II: 4 trait pts', spells={
-        {name='Chaotic Eye', level=32, set=2, weight=1},
-        {name='Zephyr Mantle', level=65, set=2, weight=1},
+    { name='Conserve MP', tiers='I: 8  |  II: 16 trait pts', spells={
+        {name='Metallic Body', level=8, set=3, weight=4},
+        {name='Bllood Drain', level=20, set=2, weight=4},
+        {name='Chaotic Eye', level=32, set=2, weight=4},
+        {name='Digest', level=36, set=2, weight=4},
+        {name='Zephyr Mantle', level=65, set=2, weight=4},
         {name='Frost Breath', level=66, set=3, weight=1},
-        {name='Firespit', level=68, set=5, weight=1},
+        {name='Firespit', level=68, set=5, weight=4},
     }},
-    { name='Counter', tiers='I: 2 trait pts', spells={
-        {name='Enervation', level=67, set=5, weight=1},
+    { name='Counter', tiers='I: 8 trait pts', spells={
+        {name='Enervation', level=67, set=5, weight=4},
         {name='Asuran Claws', level=70, set=2, weight=1},
     }},
-    { name='Defense Bonus', tiers='I: 2  |  II: 4 trait pts', spells={
-        {name='Grand Slam', level=30, set=2, weight=1},
-        {name='Terror Touch', level=40, set=3, weight=1},
+    { name='Defense Bonus', tiers='I: 8  |  II: 16 trait pts', spells={
+        {name='Grand Slam', level=30, set=2, weight=4},
+        {name='Terror Touch', level=40, set=3, weight=4},
+        {name='Quad. Continuum', level=44, set=4, weight=4},
         {name='Saline Coat', level=72, set=3, weight=1},
         {name='Vertical Cleave', level=75, set=3, weight=1},
     }},
-    { name='Evasion Bonus', tiers='I: 2 trait pts', spells={
-        {name='Screwdriver', level=26, set=3, weight=1},
+    { name='Evasion Bonus', tiers='I: 8 trait pts', spells={
+        {name='Screwdriver', level=26, set=3, weight=4},
+        {name='Occultation', level=38, set=3, weight=4},
         {name='Hysteric Barrage', level=69, set=5, weight=1},
     }},
-    { name='Fast Cast', tiers='I: 2 trait pts', spells={
-        {name='Bad Breath', level=61, set=5, weight=1},
+    { name='Fast Cast', tiers='I: 8 trait pts', spells={
+        {name='Auroral Drape', level=42, set=4, weight=4},
+        {name='Bad Breath', level=61, set=5, weight=4},
         {name='Sub-Zero Smash', level=72, set=4, weight=1},
     }},
-    { name='Lizard Killer', tiers='I: 2 trait pts', spells={
-        {name='Foot Kick', level=1, set=2, weight=1},
-        {name='Claw Cyclone', level=20, set=2, weight=1},
+    { name='Lizard Killer', tiers='I: 8 trait pts', spells={
+        {name='Foot Kick', level=1, set=2, weight=4},
+        {name='Claw Cyclone', level=20, set=2, weight=4},
         {name='Ram Charge', level=73, set=4, weight=1},
     }},
-    { name='Magic Attack Bonus', tiers='I: 2  |  II: 4  |  III: 6 trait pts', spells={
-        {name='Cursed Sphere', level=18, set=2, weight=1},
-        {name='Sound Blast', level=32, set=1, weight=1},
-        {name='Eyes On Me', level=61, set=4, weight=1},
+    { name='Magic Attack Bonus', tiers='I: 8  |  II: 16  |  III: 24 trait pts', spells={
+        {name='Blastbomb', level=18, set=2, weight=4},
+        {name='Cursed Sphere', level=18, set=2, weight=4},
+        {name='Sound Blast', level=32, set=1, weight=4},
+        {name='Blank Gaze', level=38, set=2, weight=4},
+        {name='Eyes On Me', level=61, set=4, weight=4},
         {name='Memento Mori', level=62, set=4, weight=1},
-        {name='Heat Breath', level=71, set=4, weight=1},
+        {name='Heat Breath', level=71, set=4, weight=4},
         {name='Magic Hammer', level=74, set=4, weight=1},
         {name='Reactor Cool', level=75, set=5, weight=1},
     }},
-    { name='Magic Defense Bonus', tiers='I: 2 trait pts', spells={
-        {name='Magnetite Cloud', level=46, set=3, weight=1},
-        {name='Ice Break', level=50, set=3, weight=1},
+    { name='Magic Accuracy Bonus', tiers='I: 8 trait pts', spells={
+        {name='Bomb Toss', level=28, set=3, weight=4},
+        {name='Blitzstrahl', level=44, set=4, weight=4},
+        {name='Infrasonics', level=65, set=4, weight=4},
     }},
-    { name='Max HP Boost', tiers='I: 2 trait pts', spells={
-        {name='Flying Hip Press', level=58, set=3, weight=1},
+    { name='Magic Defense Bonus', tiers='I: 8 trait pts', spells={
+        {name='Magnetite Cloud', level=46, set=3, weight=4},
+        {name='Ice Break', level=50, set=3, weight=4},
+    }},
+    { name='Max HP Boost', tiers='I: 8 trait pts', spells={
+        {name='Empty Thrash', level=33, set=3, weight=4},
+        {name='Flying Hip Press', level=58, set=3, weight=4},
         {name='Body Slam', level=62, set=4, weight=1},
-        {name='Frypan', level=63, set=3, weight=1},
+        {name='Frypan', level=63, set=3, weight=4},
     }},
-    { name='Max MP Boost', tiers='I: 2 trait pts', spells={
-        {name='Metallic Body', level=8, set=3, weight=1},
-        {name='Mysterious Light', level=40, set=4, weight=1},
-        {name='Hecatomb Wave', level=54, set=3, weight=1},
+    { name='Max MP Boost', tiers='I: 8 trait pts', spells={
+        {name='Mysterious Light', level=40, set=4, weight=4},
+        {name='Hecatomb Wave', level=54, set=3, weight=4},
     }},
-    { name='Plantoid Killer', tiers='I: 2 trait pts', spells={
-        {name='Power Attack', level=4, set=1, weight=1},
-        {name='Mandibular Bite', level=44, set=2, weight=1},
+    { name='Plantoid Killer', tiers='I: 8 trait pts', spells={
+        {name='Power Attack', level=4, set=1, weight=4},
+        {name='Mandibular Bite', level=44, set=2, weight=4},
         {name='Spiral Spin', level=60, set=3, weight=1},
     }},
-    { name='Rapid Shot', tiers='I: 2 trait pts', spells={
-        {name='Feather Storm', level=12, set=3, weight=1},
-        {name='Jet Stream', level=38, set=4, weight=1},
-        {name='Hydro Shot', level=63, set=3, weight=1},
+    { name='Rapid Shot', tiers='I: 8 trait pts', spells={
+        {name='Feather Storm', level=12, set=3, weight=4},
+        {name='Jet Stream', level=38, set=4, weight=4},
+        {name='Hydro Shot', level=63, set=3, weight=4},
     }},
-    { name='Resist Gravity', tiers='I: 2 trait pts', spells={
-        {name='Feather Barrier', level=56, set=2, weight=1},
+    { name='Resist Gravity', tiers='I: 8 trait pts', spells={
+        {name='Feather Barrier', level=56, set=2, weight=4},
         {name='Regurgitation', level=69, set=1, weight=1},
     }},
-    { name='Resist Sleep', tiers='I: 2  |  II: 4 trait pts', spells={
-        {name='Pollen', level=1, set=1, weight=1},
-        {name='Wild Carrot', level=30, set=3, weight=1},
-        {name='Magic Fruit', level=58, set=3, weight=1},
+    { name='Resist Sleep', tiers='I: 8  |  II: 16 trait pts', spells={
+        {name='Pollen', level=1, set=1, weight=4},
+        {name='Wild Carrot', level=30, set=3, weight=4},
+        {name='Magic Fruit', level=58, set=3, weight=4},
         {name='Yawn', level=64, set=3, weight=1},
         {name='Exuviation', level=75, set=4, weight=1},
     }},
-    { name='Store TP', tiers='I: 2 trait pts', spells={
-        {name='Sickle Slash', level=48, set=4, weight=1},
+    { name='Resist Slow', tiers='I: 8 trait pts', spells={
+        {name='Refueling', level=48, set=4, weight=4},
+    }},
+    { name='Store TP', tiers='I: 8 trait pts', spells={
+        {name='Sickle Slash', level=48, set=4, weight=4},
         {name='Tail Slap', level=69, set=4, weight=1},
     }},
-    { name='Undead Killer', tiers='I: 2 trait pts', spells={
-        {name='Bludgeon', level=18, set=2, weight=1},
-        {name='Smite of Rage', level=34, set=3, weight=1},
+    { name='Undead Killer', tiers='I: 8 trait pts', spells={
+        {name='Bludgeon', level=18, set=2, weight=4},
+        {name='Smite of Rage', level=34, set=3, weight=4},
     }},
 };
 
