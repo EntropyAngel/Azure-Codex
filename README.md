@@ -4,7 +4,7 @@ This version is adapted for **HorizonXI** and its 75-cap Blue Mage spell list.
 
 ## What was changed
 
-- The spell database is filtered to **only the 107 BLU spells listed by the HorizonXI Wiki at level 75 or below**.
+- The spell database is filtered to **only the 106 BLU spells listed by the HorizonXI Wiki at level 75 or below**.
 - The addon no longer assumes that every retail BLU spell in Ashita's resource files exists on HorizonXI.
 - `ui.lua` now requires a spell to be present in `data/spells.json` before it can appear in the addon.
 - The learned/known status still comes directly from Ashita's player spell data.
